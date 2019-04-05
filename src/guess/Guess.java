@@ -128,8 +128,8 @@ public class Guess extends JFrame{
                 else if(guess1==myst)
                 {
                     
-                    bu.setBackground(Color.MAGENTA);
-                    gu.setBackground(Color.MAGENTA);
+                    bu.setBackground(Color.DARK_GRAY);
+                    gu.setBackground(Color.DARK_GRAY);
                     JOptionPane.showMessageDialog(null,"YOU GOT IT!!","Guess",JOptionPane.INFORMATION_MESSAGE);    
                 }
                 
